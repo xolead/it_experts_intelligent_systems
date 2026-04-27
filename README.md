@@ -22,20 +22,20 @@
 ## Структура проекта
 IMDB-research/
 ├── data/
-│ └── imdb_dataset.csv # Исходные данные
+│ └── imdb_dataset.csv # Исходные данные для обучения
 ├── models/
-│ └── model.pkl # Обученная модель и векторизатор
+│ └── model.pkl # Обученная модель + векторизатор
 ├── src/
-│ ├── train.py # Скрипт обучения и сохранения модели
-│ └── app.py # Веб-интерфейс на Gradio
+│ ├── train.py # Скрипт обучения модели
+│ └── app.py # Веб-интерфейс (Gradio)
 ├── tests/
 │ └── test_basic.py # Модульные тесты
 ├── results/
 │ ├── confusion_matrix.png # Матрица ошибок
-│ └── log.csv # Лог запросов
-├── requirements.txt # Зависимости Python
+│ └── log.csv # Лог запросов к модели
+├── requirements.txt # Python-зависимости
 ├── .gitignore # Игнорируемые файлы
-└── README.md # Данный файл
+└── README.md # Документация
 
 ## Используемые технологии
 - **Python 3.9+**
