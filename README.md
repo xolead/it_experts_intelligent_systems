@@ -51,14 +51,18 @@ IMDB-research/
 
 git clone <URL репозитория>
 cd IMDB-research
+
 2. Установка зависимостей
 pip install -r requirements.txt
-3. Обучение модели
+
+4. Обучение модели
 cd src
 python train.py
-4. Запуск веб-интерфейса
+
+6. Запуск веб-интерфейса
 cd src
 python app.py
-5. Запуск тестов
+
+8. Запуск тестов
 cd tests
 pytest test_basic.py -v
