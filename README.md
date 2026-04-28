@@ -47,6 +47,6 @@ python train.py
 6. Запуск веб-интерфейса
 python app.py
 
-8. Запуск тестов
+8. Запуск тестов<br>
 cd tests<br>
 pytest test_basic.py -v
