@@ -2,7 +2,9 @@ import os
 import sys
 
 # Добавляем корневую папку проекта в пути, чтобы тесты "видели" файл app.py
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(project_root)
+os.chdir(project_root)
 
 from app import predict_sentiment, iface
 
