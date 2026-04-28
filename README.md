@@ -20,22 +20,8 @@
 Объём набора данных в проекте: ~10 000 записей (исходный фрагмент содержит 495 отзывов).
 
 ## Структура проекта
-IMDB-research/
-├── data/
-│ └── imdb_dataset.csv # Исходные данные для обучения
-├── models/
-│ └── model.pkl # Обученная модель + векторизатор
-├── src/
-│ ├── train.py # Скрипт обучения модели
-│ └── app.py # Веб-интерфейс (Gradio)
-├── tests/
-│ └── test_basic.py # Модульные тесты
-├── results/
-│ ├── confusion_matrix.png # Матрица ошибок
-│ └── log.csv # Лог запросов к модели
-├── requirements.txt # Python-зависимости
-├── .gitignore # Игнорируемые файлы
-└── README.md # Документация
+<img width="415" height="310" alt="image" src="https://github.com/user-attachments/assets/b40ea304-1b0d-4cd2-bd52-8fc59e64ae41" />
+
 
 ## Используемые технологии
 - **Python 3.9+**
