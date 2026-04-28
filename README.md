@@ -35,20 +35,18 @@
 
 ### 1. Клонирование репозитория
 
-git clone <URL репозитория>
+git clone <URL репозитория><br>
 cd IMDB-research
 
 2. Установка зависимостей
 pip install -r requirements.txt
 
 4. Обучение модели
-cd src
 python train.py
 
 6. Запуск веб-интерфейса
-cd src
 python app.py
 
 8. Запуск тестов
-cd tests
+cd tests<br>
 pytest test_basic.py -v
